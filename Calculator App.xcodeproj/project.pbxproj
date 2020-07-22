@@ -12,6 +12,7 @@
 		C01819A324C88EA000935B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01819A124C88EA000935B44 /* Main.storyboard */; };
 		C01819A524C88EA200935B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01819A424C88EA200935B44 /* Assets.xcassets */; };
 		C01819A824C88EA200935B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01819A624C88EA200935B44 /* LaunchScreen.storyboard */; };
+		C01819B024C88EEF00935B44 /* CalclatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01819AF24C88EEE00935B44 /* CalclatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C01819A424C88EA200935B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C01819A724C88EA200935B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01819A924C88EA200935B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01819AF24C88EEE00935B44 /* CalclatorLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalclatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C018199D24C88EA000935B44 /* AppDelegate.swift */,
 				C018199F24C88EA000935B44 /* ViewController.swift */,
+				C01819AF24C88EEE00935B44 /* CalclatorLogic.swift */,
 				C01819A124C88EA000935B44 /* Main.storyboard */,
 				C01819A424C88EA200935B44 /* Assets.xcassets */,
 				C01819A624C88EA200935B44 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01819A024C88EA000935B44 /* ViewController.swift in Sources */,
+				C01819B024C88EEF00935B44 /* CalclatorLogic.swift in Sources */,
 				C018199E24C88EA000935B44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
